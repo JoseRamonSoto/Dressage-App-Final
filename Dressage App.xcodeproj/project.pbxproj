@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA8378A1BFFE3BE00B81904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA837891BFFE3BE00B81904 /* AppDelegate.swift */; };
+		3FA8378C1BFFE3BE00B81904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8378B1BFFE3BE00B81904 /* ViewController.swift */; };
+		3FA8378F1BFFE3BE00B81904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8378D1BFFE3BE00B81904 /* Main.storyboard */; };
+		3FA837921BFFE3BE00B81904 /* Dressage_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA837901BFFE3BE00B81904 /* Dressage_App.xcdatamodeld */; };
+		3FA837941BFFE3BE00B81904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA837931BFFE3BE00B81904 /* Assets.xcassets */; };
+		3FA837971BFFE3BE00B81904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA837951BFFE3BE00B81904 /* LaunchScreen.storyboard */; };
+		3FA837A21BFFE3BE00B81904 /* Dressage_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA837A11BFFE3BE00B81904 /* Dressage_AppTests.swift */; };
+		3FA837AD1BFFE3BE00B81904 /* Dressage_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA837AC1BFFE3BE00B81904 /* Dressage_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA8379E1BFFE3BE00B81904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8377E1BFFE3BE00B81904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA837851BFFE3BE00B81904;
+			remoteInfo = "Dressage App";
+		};
+		3FA837A91BFFE3BE00B81904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA8377E1BFFE3BE00B81904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA837851BFFE3BE00B81904;
+			remoteInfo = "Dressage App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA837861BFFE3BE00B81904 /* Dressage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dressage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA837891BFFE3BE00B81904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA8378B1BFFE3BE00B81904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA8378E1BFFE3BE00B81904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA837911BFFE3BE00B81904 /* Dressage_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dressage_App.xcdatamodel; sourceTree = "<group>"; };
+		3FA837931BFFE3BE00B81904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA837961BFFE3BE00B81904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA837981BFFE3BE00B81904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA8379D1BFFE3BE00B81904 /* Dressage AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dressage AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA837A11BFFE3BE00B81904 /* Dressage_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dressage_AppTests.swift; sourceTree = "<group>"; };
+		3FA837A31BFFE3BE00B81904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA837A81BFFE3BE00B81904 /* Dressage AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dressage AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA837AC1BFFE3BE00B81904 /* Dressage_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dressage_AppUITests.swift; sourceTree = "<group>"; };
+		3FA837AE1BFFE3BE00B81904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA837831BFFE3BE00B81904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8379A1BFFE3BE00B81904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA837A51BFFE3BE00B81904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA8377D1BFFE3BE00B81904 = {
+			isa = PBXGroup;
+			children = (
+				3FA837881BFFE3BE00B81904 /* Dressage App */,
+				3FA837A01BFFE3BE00B81904 /* Dressage AppTests */,
+				3FA837AB1BFFE3BE00B81904 /* Dressage AppUITests */,
+				3FA837871BFFE3BE00B81904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA837871BFFE3BE00B81904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA837861BFFE3BE00B81904 /* Dressage App.app */,
+				3FA8379D1BFFE3BE00B81904 /* Dressage AppTests.xctest */,
+				3FA837A81BFFE3BE00B81904 /* Dressage AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA837881BFFE3BE00B81904 /* Dressage App */ = {
+			isa = PBXGroup;
+			children = (
+				3FA837891BFFE3BE00B81904 /* AppDelegate.swift */,
+				3FA8378B1BFFE3BE00B81904 /* ViewController.swift */,
+				3FA8378D1BFFE3BE00B81904 /* Main.storyboard */,
+				3FA837931BFFE3BE00B81904 /* Assets.xcassets */,
+				3FA837951BFFE3BE00B81904 /* LaunchScreen.storyboard */,
+				3FA837981BFFE3BE00B81904 /* Info.plist */,
+				3FA837901BFFE3BE00B81904 /* Dressage_App.xcdatamodeld */,
+			);
+			path = "Dressage App";
+			sourceTree = "<group>";
+		};
+		3FA837A01BFFE3BE00B81904 /* Dressage AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA837A11BFFE3BE00B81904 /* Dressage_AppTests.swift */,
+				3FA837A31BFFE3BE00B81904 /* Info.plist */,
+			);
+			path = "Dressage AppTests";
+			sourceTree = "<group>";
+		};
+		3FA837AB1BFFE3BE00B81904 /* Dressage AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA837AC1BFFE3BE00B81904 /* Dressage_AppUITests.swift */,
+				3FA837AE1BFFE3BE00B81904 /* Info.plist */,
+			);
+			path = "Dressage AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA837851BFFE3BE00B81904 /* Dressage App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA837B11BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage App" */;
+			buildPhases = (
+				3FA837821BFFE3BE00B81904 /* Sources */,
+				3FA837831BFFE3BE00B81904 /* Frameworks */,
+				3FA837841BFFE3BE00B81904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dressage App";
+			productName = "Dressage App";
+			productReference = 3FA837861BFFE3BE00B81904 /* Dressage App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA8379C1BFFE3BE00B81904 /* Dressage AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA837B41BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage AppTests" */;
+			buildPhases = (
+				3FA837991BFFE3BE00B81904 /* Sources */,
+				3FA8379A1BFFE3BE00B81904 /* Frameworks */,
+				3FA8379B1BFFE3BE00B81904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA8379F1BFFE3BE00B81904 /* PBXTargetDependency */,
+			);
+			name = "Dressage AppTests";
+			productName = "Dressage AppTests";
+			productReference = 3FA8379D1BFFE3BE00B81904 /* Dressage AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA837A71BFFE3BE00B81904 /* Dressage AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA837B71BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage AppUITests" */;
+			buildPhases = (
+				3FA837A41BFFE3BE00B81904 /* Sources */,
+				3FA837A51BFFE3BE00B81904 /* Frameworks */,
+				3FA837A61BFFE3BE00B81904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA837AA1BFFE3BE00B81904 /* PBXTargetDependency */,
+			);
+			name = "Dressage AppUITests";
+			productName = "Dressage AppUITests";
+			productReference = 3FA837A81BFFE3BE00B81904 /* Dressage AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA8377E1BFFE3BE00B81904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jose Ramon Soto";
+				TargetAttributes = {
+					3FA837851BFFE3BE00B81904 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z4YA2S7GD7;
+					};
+					3FA8379C1BFFE3BE00B81904 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z4YA2S7GD7;
+						TestTargetID = 3FA837851BFFE3BE00B81904;
+					};
+					3FA837A71BFFE3BE00B81904 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Z4YA2S7GD7;
+						TestTargetID = 3FA837851BFFE3BE00B81904;
+					};
+				};
+			};
+			buildConfigurationList = 3FA837811BFFE3BE00B81904 /* Build configuration list for PBXProject "Dressage App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA8377D1BFFE3BE00B81904;
+			productRefGroup = 3FA837871BFFE3BE00B81904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA837851BFFE3BE00B81904 /* Dressage App */,
+				3FA8379C1BFFE3BE00B81904 /* Dressage AppTests */,
+				3FA837A71BFFE3BE00B81904 /* Dressage AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA837841BFFE3BE00B81904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA837971BFFE3BE00B81904 /* LaunchScreen.storyboard in Resources */,
+				3FA837941BFFE3BE00B81904 /* Assets.xcassets in Resources */,
+				3FA8378F1BFFE3BE00B81904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA8379B1BFFE3BE00B81904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA837A61BFFE3BE00B81904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA837821BFFE3BE00B81904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA8378C1BFFE3BE00B81904 /* ViewController.swift in Sources */,
+				3FA8378A1BFFE3BE00B81904 /* AppDelegate.swift in Sources */,
+				3FA837921BFFE3BE00B81904 /* Dressage_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA837991BFFE3BE00B81904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA837A21BFFE3BE00B81904 /* Dressage_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA837A41BFFE3BE00B81904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA837AD1BFFE3BE00B81904 /* Dressage_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA8379F1BFFE3BE00B81904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA837851BFFE3BE00B81904 /* Dressage App */;
+			targetProxy = 3FA8379E1BFFE3BE00B81904 /* PBXContainerItemProxy */;
+		};
+		3FA837AA1BFFE3BE00B81904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA837851BFFE3BE00B81904 /* Dressage App */;
+			targetProxy = 3FA837A91BFFE3BE00B81904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA8378D1BFFE3BE00B81904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA8378E1BFFE3BE00B81904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA837951BFFE3BE00B81904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA837961BFFE3BE00B81904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA837AF1BFFE3BE00B81904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA837B01BFFE3BE00B81904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA837B21BFFE3BE00B81904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dressage App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FA837B31BFFE3BE00B81904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dressage App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FA837B51BFFE3BE00B81904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dressage AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dressage App.app/Dressage App";
+			};
+			name = Debug;
+		};
+		3FA837B61BFFE3BE00B81904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dressage AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dressage App.app/Dressage App";
+			};
+			name = Release;
+		};
+		3FA837B81BFFE3BE00B81904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dressage AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dressage App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FA837B91BFFE3BE00B81904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dressage AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Dressage-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dressage App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA837811BFFE3BE00B81904 /* Build configuration list for PBXProject "Dressage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA837AF1BFFE3BE00B81904 /* Debug */,
+				3FA837B01BFFE3BE00B81904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA837B11BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA837B21BFFE3BE00B81904 /* Debug */,
+				3FA837B31BFFE3BE00B81904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA837B41BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA837B51BFFE3BE00B81904 /* Debug */,
+				3FA837B61BFFE3BE00B81904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA837B71BFFE3BE00B81904 /* Build configuration list for PBXNativeTarget "Dressage AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA837B81BFFE3BE00B81904 /* Debug */,
+				3FA837B91BFFE3BE00B81904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FA837901BFFE3BE00B81904 /* Dressage_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FA837911BFFE3BE00B81904 /* Dressage_App.xcdatamodel */,
+			);
+			currentVersion = 3FA837911BFFE3BE00B81904 /* Dressage_App.xcdatamodel */;
+			path = Dressage_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FA8377E1BFFE3BE00B81904 /* Project object */;
+}
